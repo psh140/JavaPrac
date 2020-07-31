@@ -97,6 +97,8 @@ public class Hello2030 {
 		a = 3;
 		b = 5;
 		System.out.println((a > b) ? (a - b) : (b - a));
+		
+		System.out.println("hihihihihi");
 
 	}
 
