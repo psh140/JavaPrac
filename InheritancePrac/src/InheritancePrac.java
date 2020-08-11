@@ -117,14 +117,14 @@ public class InheritancePrac {
 
 	public static void main(String[] args) {
 
-		Cat cat = new Cat(false, "milk", 4, "Nabi", "black");
+		Cat cat = new Cat(false, "milk", 3, "Nabi", "black");
 		Persian miri = new Persian(false, "feed", 4, "miri", "persian", "white");
 		
 		miri.setEyeColor("blue");
 		
 		System.out.println("What is his name? : " + cat.getName());
 		System.out.println("He eats " + cat.getEats());
-		System.out.println("He has " + cat.getNoOfLegs() + " legs.");
+		System.out.println("He has " + cat.getNoOfLegs() + " legs. He is injured...");
 		System.out.println("He has " + cat.getColor() + " hair.");
 		System.out.println("What his species? : " + cat.getSpecies());
 		System.out.println();
@@ -133,7 +133,6 @@ public class InheritancePrac {
 		System.out.println("He has " + miri.getNoOfLegs() + " legs.");
 		System.out.println("He has " + miri.getColor() + " hair.");
 		System.out.println("What his species? : " + miri.getSpecies());
-		System.out.println("He hase " + miri.getEyeColor() + " eyes");
+		System.out.println("He has " + miri.getEyeColor() + " eyes.");
 	}
-
 }
