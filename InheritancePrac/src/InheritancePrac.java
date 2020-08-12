@@ -65,22 +65,34 @@ class Animal {
 class Cat extends Animal {
 	
 	private String color;
-
+	private String cryingSound;
+	
 	public Cat(boolean veg, String food, int legs, String name) {
 		super(veg, food, legs, name);
 		this.color = "White";
+		this.cryingSound = "Meow~";
 	}
 	
 	public Cat(boolean veg, String food, int legs, String name, String color) {
 		super(veg, food, legs, name);
 		this.color = color;
+		this.cryingSound = "Meow~";
 	}
 
 	public Cat(boolean veg, String food, int legs, String name, String species, String color) {
 		super(veg, food, legs, name, species);
 		this.color = color;
+		this.cryingSound = "Meow~";
 	}
 	
+	public String getCryingSound() {
+		return cryingSound;
+	}
+
+	public void setCryingSound(String cryingSound) {
+		this.cryingSound = cryingSound;
+	}
+
 	public String getColor() {
 		return color;
 	}
@@ -96,12 +108,12 @@ class Persian extends Cat {
 	
 	public Persian(boolean veg, String food, int legs, String name) {
 		super(veg, food, legs, name);
-		// TODO Auto-generated constructor stub
+		setCryingSound("Hiss!!");
 	}
 
 	public Persian(boolean veg, String food, int legs, String name, String species, String color) {
 		super(veg, food, legs, name, species, color);
-		// TODO Auto-generated constructor stub
+		setCryingSound("Hiss!!");
 	}
 
 	public String getEyeColor() {
@@ -127,6 +139,7 @@ public class InheritancePrac {
 		System.out.println("He has " + cat.getNoOfLegs() + " legs. He is injured...");
 		System.out.println("He has " + cat.getColor() + " hair.");
 		System.out.println("What his species? : " + cat.getSpecies());
+		System.out.println(cat.getName() + " : " + cat.getCryingSound());
 		System.out.println();
 		System.out.println("What is his name? : " + miri.getName());
 		System.out.println("He eats " + miri.getEats());
@@ -134,5 +147,6 @@ public class InheritancePrac {
 		System.out.println("He has " + miri.getColor() + " hair.");
 		System.out.println("What his species? : " + miri.getSpecies());
 		System.out.println("He has " + miri.getEyeColor() + " eyes.");
+		System.out.println(miri.getName() + " : " + miri.getCryingSound());
 	}
 }
