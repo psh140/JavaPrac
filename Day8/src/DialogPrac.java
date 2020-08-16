@@ -61,6 +61,7 @@ public class DialogPrac extends JFrame {
 				btn.setText(text);
 			}
 		});
+		
 		getContentPane().add(btn);
 		setSize(250, 200);
 		setVisible(true);
