@@ -23,6 +23,7 @@ Event Programming, Swing Component
 
 Day 8  
 Graphics, Advance Swing Component  
-¼÷Á¦ÀÖÀ½/ÀÌ¸§ ±¹¾î ¿µ¾î ¼öÇÐ È®ÀÎ ´©¸£¸é »ç¶÷¸¶´Ù µ¥ÀÌÅÍ ÀúÀåÇÏ°í Ãâ·ÂÇÏ¸é ´ÙÀÌ¾ó·Î±× ¶ç¿ö¼­ Å×ÀÌºí·Î ÀÌ¸§ ±¹¾î ¿µ¾î ¼öÇÐ ÃÑÁ¡ Æò±Õ Ãâ·Â Ãë¼Ò´Â ÇÁ·Î±×·¥ Á¾·á  
+ìˆ™ì œìžˆìŒ/ì´ë¦„ êµ­ì–´ ì˜ì–´ ìˆ˜í•™ í™•ì¸ ëˆ„ë¥´ë©´ ì‚¬ëžŒë§ˆë‹¤ ë°ì´í„° ì €ìž¥í•˜ê³  ì¶œë ¥í•˜ë©´ ë‹¤ì´ì–¼ë¡œê·¸ ë„ì›Œì„œ í…Œì´ë¸”ë¡œ ì´ë¦„ êµ­ì–´ ì˜ì–´ ìˆ˜í•™ ì´ì  í‰ê·  ì¶œë ¥ ì·¨ì†ŒëŠ” í”„ë¡œê·¸ëž¨ ì¢…ë£Œ  
 
-Ãâ·Â¹öÆ° ¸¸µé±â
+ì¶œë ¥ë²„íŠ¼ ë§Œë“¤ê¸°
+ìˆ˜ì •ëë‹¤
