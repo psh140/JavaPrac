@@ -22,7 +22,10 @@ Day 7
 Event Programming, Swing Component  
 
 Day 8  
-Graphics, Advance Swing Component  
+Graphics, Advance Swing Component, Simple table  
 
 Day 9  
-Swing Tab Pane, Audio, Homework Review, MVC Pattern, Thread, round robin, synchronized, Network      
+Swing Tab Pane, Audio, Homework Review, MVC Pattern, Thread, round robin, synchronized, Network  
+
+Day 10  
+Network, JDBC Connect - Áß¿ä!  
